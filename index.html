@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Ayush Patil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLCqf0Ed7wiUQyarte1JZSu8-c-xF45Q27DMSrKZkGkPlmkJqAQ55RlrvNxi8HSLNdxNXq2uY1xusRZuHmYWawNbts5JbORzlJeinDLQQURQ_bwxpgZj83CAeCp4VFu3iKz8jvOqfefqYgUvaqs1x7eta8nOsfGeF12OOCQE4xwdDYprf346hq40BJOqgT/s3840/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(30, 30, 30, 0.7);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+            width: 100%;
+            max-width: 900px;
+            padding: 40px;
+            border: 3px solid rgba(255, 0, 0, 0.8);
+        }
+
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #FF0000;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        .text-content {
+            text-align: center;
+            flex: 1;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 42px;
+            color: #FF0000;
+            font-weight: 700;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            margin: 25px 0 15px;
+            font-size: 26px;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+
+        .about {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #d0d0d0;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.15);
+            opacity: 0.8;
+        }
+
+        .social-links img {
+            width: 40px;
+            height: 40px;
+            transition: filter 0.3s ease;
+        }
+
+        .social-links img:hover {
+            filter: brightness(1.2);
+        }
+
+        .email-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .email-section a {
+            color: #FF0000;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 12px 25px;
+            border: 2px solid #FF0000;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .email-section a:hover {
+            background-color: #FF0000;
+            color: #FFFFFF;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                max-width: 900px;
+            }
+
+            .profile-pic {
+                margin-right: 30px;
+                margin-bottom: 0;
+            }
+
+            .text-content {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEoeTXgHAXi1W8ntCJ7ze1WjX9zbQTmVjy9M7RvYKOz3bvYwB5dL5nB279CTwIqbSNjUgKEOZ9x08sEZkI5_5YzJzLQKkjL75O7rfn2skYVpT5e-1g_n1BrgNqpovyfbeqXbT6CSOZP1OW5tfHioQaSCIKWsHUWVoHoirv_UKu1AdpRoJvHH50iIe28QJU/s413/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="text-content">
+            <h1>Ayush Patil</h1>
+            <div class="about">
+                <h2>About Me</h2>
+                <p>Hi! I'm Ayush Pramod Patil, a student at Dr. D. Y. Patil Institute of Technology, Pimpri, Pune, where I'm majoring in Artificial Intelligence & Data Science. I have a strong passion for learning new programming languages and exploring the vast field of Data Science. My goal is to gain valuable experience and knowledge in these areas. I enjoy connecting with new people and seeking opportunities that foster personal and professional growth. When I'm not studying, I love travelling, coding, and gaming. I'm always excited to discover new ideas and collaborate on interesting projects. Feel free to reach out.</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/ayushpatil0810" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/225px-Instagram_logo_2022.svg.png" alt="Instagram">
+                </a>
+                <a href="https://www.github.com/ayushppatil" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/330px-GitHub_Invertocat_Logo.svg.png" alt="Github">
+                </a>
+                <a href="https://www.twitter.com/ayushpatil0810" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/150px-X_logo_2023.svg.png" alt="X">
+                </a>
+                <a href="https://www.linkedin.com/in/ayushpatil0810" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tOrs3vTGPNgx_tpb8daohHzWBCLvV7rB2i1gzWM&usqp=CAE&s" alt="LinkedIn">
+                </a>
+            </div>
+
+            <div class="email-section">
+                <a href="mailto:ayushppatil2006@gmail.com">Contact Me via Email</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
